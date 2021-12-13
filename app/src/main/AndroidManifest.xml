@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Exercise.ExerciseActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Routine.RoutineActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+        </activity>
+        <activity
+            android:name=".RoutineInfo.RoutineInfoActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Schedule.ScheduleActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+        </activity>
+        <activity
+            android:name=".ScheduleSearch.ScheduleSearchActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Calander.CalendarActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

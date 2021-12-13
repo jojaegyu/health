@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/X/.gradle/caches/transforms-3/d76f35a08c08216004feed386d7db8d0/transformed/appcompat-1.2.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_calander.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_calendar.xml" value="0.2978540772532189" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_exercise.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_exercisesearch.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_routine.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_routineinfo.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_schedulesearch.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sub.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/editbox.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/editbox_calendar_routine.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/editbox_exercise.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/editbox_routine.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/editbox_routineinfo.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/editbox_schedule.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/exercise.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/exercise_edit_box.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/exercise_item.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_second.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/item_exercise.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/item_list.xml" value="0.2046875" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/item_routine.xml" value="0.33" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/layout/item_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/X/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu_main.xml" value="0.2046875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="54dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="111dp"
+        android:text="종료\n시간"
+        app:layout_constraintBottom_toTopOf="@+id/button_schedule_dialog_submit"
+        app:layout_constraintEnd_toStartOf="@+id/schedule_endTimePicker"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TimePicker
+        android:id="@+id/schedule_endTimePicker"
+        android:layout_width="284dp"
+        android:layout_height="201dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="114dp"
+        android:timePickerMode="spinner"
+        app:layout_constraintBottom_toTopOf="@+id/button_schedule_dialog_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/schedule_startTimePicker"></TimePicker>
+
+    <EditText
+        android:id="@+id/name_schedule"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="일정명을 입력하세요."
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TimePicker
+        android:id="@+id/schedule_startTimePicker"
+        android:layout_width="284dp"
+        android:layout_height="201dp"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="28dp"
+        android:timePickerMode="spinner"
+        app:layout_constraintBottom_toTopOf="@+id/schedule_endTimePicker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/name_schedule"></TimePicker>
+
+    <Button
+        android:id="@+id/button_schedule_dialog_submit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="52dp"
+        android:text="수정"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="54dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="13dp"
+        android:text="시작\n시간"
+        app:layout_constraintEnd_toStartOf="@+id/schedule_startTimePicker"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_schedule" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
